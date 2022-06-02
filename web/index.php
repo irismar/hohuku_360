@@ -1,6 +1,6 @@
 		<?php
 
-    $base_url=$_SERVER['HTTP_HOST'];
+   echo  $base_url=$_SERVER['HTTP_HOST'];
 		
 			
 		    if(isset($_GET['url'])){ 
