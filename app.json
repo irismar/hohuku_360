@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: PHP",
+  "name": "Anuncio360.com",
   "description": "A barebones PHP app that makes use of the Silex web framework",
-  "repository": "https://github.com/heroku/php-getting-started",
+  "repository": "https://github.com/irismar/hohuku_360",
   "addons": []
 }
