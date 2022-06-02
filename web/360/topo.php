@@ -5,7 +5,7 @@
 
                <? if(isset($_SESSION['id'])){ 
                 if(isset($_SESSION['foto_perfil']) && ($_SESSION['foto_perfil']!='') ){
-                  $foto_perfil_topo=$_SESSION['foto_perfil']; }else { $foto_perfil_topo='https://www.anuncio360.com/img/logo_50.png';
+                  $foto_perfil_topo=$_SESSION['foto_perfil']; }else { $foto_perfil_topo='https://'.$base_url.'/img/logo_50.png';
                 }
 
 
